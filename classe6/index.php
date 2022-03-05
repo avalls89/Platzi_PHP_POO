@@ -1,11 +1,11 @@
 <?php
 
-include './classe/Admin.php';
+include './classe/Administrador.php';
 // include './classe/Person.php';
-include './classe/User.php';
+include './classe/Usuari.php';
 
 
 
-$user = new User;
-$user->type = new Admin;
+$user = new Usuari;
+$user->type = new Administrador;
 echo $user->type->greet();

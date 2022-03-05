@@ -5,7 +5,7 @@ interface Search
     public function all();
 }
 
-class User implements Search
+class Usuario implements Search
 {
     public function all()
     {
@@ -22,7 +22,7 @@ class Post implements Search
     }
 } 
 
-$user = new User();
+$user = new Usuario();
 echo $user->all();
 
 $post = new Post();
