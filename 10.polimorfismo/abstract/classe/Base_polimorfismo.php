@@ -1,6 +1,6 @@
 <?php
 
-abstract class Base
+abstract class Base_polimorfismo
 {
     protected $name;
 

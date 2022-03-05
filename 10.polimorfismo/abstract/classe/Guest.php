@@ -1,8 +1,5 @@
 <?php
-
-include './classe/Base.php';
-
-class Guest extends Base
+class Guest extends Base_polimorfismo
 {
     protected $name = 'Invitado';
 }

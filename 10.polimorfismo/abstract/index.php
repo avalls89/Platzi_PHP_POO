@@ -1,6 +1,6 @@
 <?php
 
-include './classe/Base.php';
+include './classe/Base_polimorfismo.php';
 include './classe/Guest.php';
 include './classe/User.php';
 include './classe/Admin.php';

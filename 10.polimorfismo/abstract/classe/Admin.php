@@ -1,8 +1,5 @@
 <?php
-
-include './classe/Base.php';
-
-class Admin extends Base
+class Admin extends Base_polimorfismo
 {
     public function __construct($name)
     {
