@@ -1,11 +1,11 @@
 <?php
 
-class User
+class Usuarios
 {
     public $type;
 };
 
-class Admin
+class Administrados
 {
     public function greet()
     {
@@ -13,8 +13,6 @@ class Admin
     }
 };
 
-$user = new User;
-$user->type = new Admin;
+$Usuarios = new Usuarios;
+$user->type = new Administrados;
 echo $user->type->greet();
-
-?>
